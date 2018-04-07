@@ -1,0 +1,147 @@
+/* Здесь будут храниться стили нашего сайта */
+
+h2{
+	font-size: 18px;
+	font-weight: bold;
+	color: #072B6F;
+	text-transform: uppercase;
+}
+
+.header{
+	width: 100%;	
+	background: -webkit-linear-gradient(-123deg, #3a7dfd 26%, #1157db 74%);
+	background: -moz-linear-gradient(-123deg, #3a7dfd 26%, #1157db 74%);
+	background: -o-linear-gradient(-123deg, #3a7dfd 26%, #1157db 74%);
+	background: -ms-linear-gradient(-123deg, #3a7dfd 26%, #1157db 74%);
+	background: linear-gradient(213deg, #3a7dfd 26%, #1157db 74%);	
+}
+.header img{
+	margin-top: 15%;
+}
+.header-content{
+	margin-top: 45%;
+	color: #FFF;
+}
+.header-content h1{
+	text-transform: uppercase;
+	margin: 20px 0;
+	font-size: 40px;
+	font-weight: bold;
+}
+.header-content h3{
+	font-size: 18px;
+}
+.header-content button{
+	margin-top: 20px;
+	padding: 10px 40px;
+	display: block;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 10px 17px 34.4px 5.6px rgba(18, 61, 145, 0.83);
+	border-radius: 100px;
+	border:none;	
+}
+.header-content small{
+	font-size: 12px;
+	margin-left: 40px;
+}
+.content{
+	background-color: #ddd;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.portfolio{
+	background-color: #FFF;
+	padding: 20px 50px;	
+	text-align: center;
+}
+.portfolio img{
+	width: 100%;
+}
+.portfolio h2{	
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.portf-a{
+	text-align: left;
+}
+.section-header{
+	text-align: left;
+}
+.portfolio-sectext{
+	text-align: center;
+	color: #7bb9ff;
+	margin-bottom: 30px;	
+}
+.portftext{
+	сolor: #8f8f8f;	
+	text-align: left;
+}
+.footer{
+	position: relative;
+	background-color:  #3a7dfd;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	text-align: center;
+	color: #FFF;
+}
+.footer h3{
+	font-size: 24px;
+	color: #fefefe;
+	font-weight: bold;
+}
+.footer p{
+	color:  #deedfe;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 40px;
+}
+.footer img{
+	margin-right: 10px;
+}
+.footer button{
+	padding: 10px 30px;
+	background-color:  #3a7dfd;
+	color:  #deedfe;
+	font-size: 18px;
+	border: 1px solid #fff;
+	-webkit-border-radius: 100px;
+	        border-radius: 100px;
+}
+#arrow{
+	position: absolute;
+	top: -20%;
+	right: 0;	
+}
+
+@media (max-width: 991px){
+	.header-content{
+		margin-top: 0;
+	}
+	.header img{
+		display: none;
+	}
+	.footer img{
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+	}
+	#arrow{
+		display: none;
+	}
+}
+@media (max-width: 767px){
+	.header{
+		text-align: center;
+	}
+	.header img{
+		display: none;
+	}
+	.header button{
+		margin: 0 auto;
+	}
+	.header small{
+		margin: 0 auto;
+	}
+}
